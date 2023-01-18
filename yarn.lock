@@ -8966,14 +8966,6 @@ mem@^5.0.0:
     mimic-fn "^2.1.0"
     p-is-promise "^2.1.0"
 
-mem@^6.0.1:
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/mem/-/mem-6.1.1.tgz#ea110c2ebc079eca3022e6b08c85a795e77f6318"
-  integrity sha512-Ci6bIfq/UgcxPTYa8dQQ5FY3BzKkT894bwXWXxC/zqs0XgMO2cT20CGkOqda7gZNkmK5VP4x89IGZ6K7hfbn3Q==
-  dependencies:
-    map-age-cleaner "^0.1.3"
-    mimic-fn "^3.0.0"
-
 memorystream@^0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/memorystream/-/memorystream-0.3.1.tgz#86d7090b30ce455d63fbae12dda51a47ddcaf9b2"
@@ -10436,13 +10428,14 @@ p-map@^4.0.0:
   dependencies:
     aggregate-error "^3.0.0"
 
-p-memoize@4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/p-memoize/-/p-memoize-4.0.1.tgz#6f4231857fec10de2504611fe820c808fa8c5f8b"
-  integrity sha512-km0sP12uE0dOZ5qP+s7kGVf07QngxyG0gS8sYFvFWhqlgzOsSy+m71aUejf/0akxj5W7gE//2G74qTv6b4iMog==
+p-memoize@4.0.4:
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/p-memoize/-/p-memoize-4.0.4.tgz#90a4c4668866737fc5c8364c56b06f6ca44afb15"
+  integrity sha512-ijdh0DP4Mk6J4FXlOM6vPPoCjPytcEseW8p/k5SDTSSfGV3E9bpt9Yzfifvzp6iohIieoLTkXRb32OWV0fB2Lw==
   dependencies:
-    mem "^6.0.1"
+    map-age-cleaner "^0.1.3"
     mimic-fn "^3.0.0"
+    p-settle "^4.1.1"
 
 p-queue@6.6.2, p-queue@^6.6.1, p-queue@^6.6.2:
   version "6.6.2"
@@ -10473,7 +10466,7 @@ p-retry@^4.2.0:
     "@types/retry" "^0.12.0"
     retry "^0.12.0"
 
-p-settle@^4.0.1:
+p-settle@^4.0.1, p-settle@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/p-settle/-/p-settle-4.1.1.tgz#37fbceb2b02c9efc28658fc8d36949922266035f"
   integrity sha512-6THGh13mt3gypcNMm0ADqVNCcYa3BK6DWsuJWFCuEKP1rpY+OKGp7gaZwVmLspmic01+fsg/fN57MfvDzZ/PuQ==
